@@ -1,5 +1,5 @@
 import time
 
 while True:
-    print(time.time() * 1000)
+    print(time.monotonic_ns() / 1000000)
     
